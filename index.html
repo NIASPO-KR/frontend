@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/drawer.css" />
+    <link rel="stylesheet" href="css/order.css" />
+    <title>Oreshnik Delivery</title>
+  </head>
+  <body>
+    <main id="main">
+      <div id="content">
+        <header class="header">
+          <div class="header__logo">
+            <img class="header__logo-img" src="files/logo.png" alt="Логотип" />
+            <div class="header__logo-title">
+              <span class="header__logo-h1">ORESHNIK FOOD</span>
+              <span class="header__logo-desc">Доставка приулетной еды</span>
+            </div>
+          </div>
+
+          <div class="header__links">
+            <a class="header__orders" href="orders.html">Мои заказы</a>
+            <a id="show-drawer" class="header__cart">
+              <img
+                class="header__cart-logo"
+                src="files/cart.svg"
+                alt="Корзина"
+              />
+              <span шв="header__cart-sign">Корзина</span>
+            </a>
+          </div>
+        </header>
+
+        <section class="banner">
+          <div class="banner__button">
+            <span class="banner__button-green">Ощути новые</span>
+            <span class="banner__button-text">Фурункулы!</span>
+            <button class="banner__button-button">Заказать</button>
+          </div>
+          <img src="files/minion.png" class="banner__img" alt="Миньон" />
+          <img src="files/food.png" class="banner__right" alt="еда" />
+          <span class="banner__text-right">копыта</span>
+        </section>
+
+        <section class="catalog">
+          <div class="catalog__item" id="mainfood">
+            <span class="catalog__item-title">Основное</span>
+
+            <div class="catalog__item-foods">
+              <div class="catalog__item-card">
+                <img
+                  class="catalog__item-card-img"
+                  src="files/logo.png"
+                  alt="Карточка товара"
+                />
+
+                <span class="catalog__item-card-title"
+                  >Лошадиные анусы с перхотью гуся Анушеврона</span
+                >
+                <div class="catalog__item-card-props">
+                  <div class="catalog__item-card-props-price">
+                    <span class="catalog__item-prop-title">ЦЕНА:</span>
+                    <span class="catalog__item-prop-price">12 999 руб.</span>
+                  </div>
+                  <button class="catalog__item-card-props-add">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__item" id="secondaryfood">
+            <span class="catalog__item-title">Закуски</span>
+
+            <div class="catalog__item-foods">
+              <div class="catalog__item-card">
+                <img
+                  class="catalog__item-card-img"
+                  src="files/logo.png"
+                  alt="Карточка товара"
+                />
+
+                <span class="catalog__item-card-title"
+                  >Лошадиные анусы с перхотью гуся Анушеврона</span
+                >
+                <div class="catalog__item-card-props">
+                  <div class="catalog__item-card-props-price">
+                    <span class="catalog__item-prop-title">ЦЕНА:</span>
+                    <span class="catalog__item-prop-price">12 999 руб.</span>
+                  </div>
+                  <button class="catalog__item-card-props-add">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__item" id="drinks">
+            <span class="catalog__item-title">Напитки</span>
+            <div class="catalog__item-foods"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div id="drawer-background"></div>
+
+    <div id="cart">
+      <span class="cart__title">Корзина</span>
+      <div id="cart__items">
+        <div class="cart__items-item">
+          <span class="cart__items-item-title">
+            Парнокопытные быки с мелкими яйцами
+          </span>
+
+          <div class="cart__items-props">
+            <span class="cart__items-props-price">Цена: 129 руб.</span>
+            <div class="cart__items-props-count">
+              <button class="cart__button cart__button-decrement">-</button>
+              <span class="cart__count-value">1</span>
+              <button class="cart__button cart__button-increment">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__items-item">
+          <span class="cart__items-item-title">
+            Парнокопытные быки с мелкими яйцами
+          </span>
+
+          <div class="cart__items-props">
+            <span class="cart__items-props-price">Цена: 129 руб.</span>
+            <div class="cart__items-props-count">
+              <button class="cart__button cart__button-decrement">-</button>
+              <span class="cart__count-value">1</span>
+              <button class="cart__button cart__button-increment">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__items-item">
+          <span class="cart__items-item-title">
+            Парнокопытные быки с мелкими яйцами
+          </span>
+
+          <div class="cart__items-props">
+            <span class="cart__items-props-price">Цена: 129 руб.</span>
+            <div class="cart__items-props-count">
+              <button class="cart__button cart__button-decrement">-</button>
+              <span class="cart__count-value">1</span>
+              <button class="cart__button cart__button-increment">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__items-item">
+          <span class="cart__items-item-title">
+            Парнокопытные быки с мелкими яйцами
+          </span>
+
+          <div class="cart__items-props">
+            <span class="cart__items-props-price">Цена: 129 руб.</span>
+            <div class="cart__items-props-count">
+              <button class="cart__button cart__button-decrement">-</button>
+              <span class="cart__count-value">1</span>
+              <button class="cart__button cart__button-increment">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__items-item">
+          <span class="cart__items-item-title">
+            Парнокопытные быки с мелкими яйцами
+          </span>
+
+          <div class="cart__items-props">
+            <span class="cart__items-props-price">Цена: 129 руб.</span>
+            <div class="cart__items-props-count">
+              <button class="cart__button cart__button-decrement">-</button>
+              <span class="cart__count-value">1</span>
+              <button class="cart__button cart__button-increment">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__items-item">
+          <span class="cart__items-item-title">
+            Парнокопытные быки с мелкими яйцами
+          </span>
+
+          <div class="cart__items-props">
+            <span class="cart__items-props-price">Цена: 129 руб.</span>
+            <div class="cart__items-props-count">
+              <button class="cart__button cart__button-decrement">-</button>
+              <span class="cart__count-value">1</span>
+              <button class="cart__button cart__button-increment">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__items-item">
+          <span class="cart__items-item-title">
+            Парнокопытные быки с мелкими яйцами
+          </span>
+
+          <div class="cart__items-props">
+            <span class="cart__items-props-price">Цена: 129 руб.</span>
+            <div class="cart__items-props-count">
+              <button class="cart__button cart__button-decrement">-</button>
+              <span class="cart__count-value">1</span>
+              <button class="cart__button cart__button-increment">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart__item-sum">
+        <span class="cart__item-sum-label">Итого:</span>
+        <span class="cart__item-sum-line"></span>
+        <span class="cart__item-sum-value">21 498 руб.</span>
+      </div>
+
+      <button class="cart__order-button">
+        Оформить заказ
+        <span class="cart__order-arrow">→</span>
+      </button>
+    </div>
+
+    <div id="order">
+      <div class="order__content">
+        <span class="order__header">Оформление заказа:</span>
+        <div class="order__sum">
+          <span class="order__sum-label">Итого:</span>
+          <span class="order__sum-line"></span>
+          <span class="order__sum-value" id="order_sum">21 498 руб.</span>
+        </div>
+
+        <div class="form">
+          <div class="form-group">
+            <label for="delivery-place">Место доставки:</label>
+            <div class="custom-select">
+              <select id="delivery-place"></select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="payment-method">Способ оплаты:</label>
+            <div class="custom-select">
+              <select id="payment-method"></select>
+            </div>
+          </div>
+
+          <button class="order-button">Оформить заказ</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/prostuk.js"></script>
+  </body>
+</html>
